@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Teko:wght@300..700&display=swap"); /*dotted */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Teko:wght@300..700&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -62,12 +62,7 @@ body {
   font-family: "Doto", sans-serif;
   font-weight: 800;
   animation: bounce 2s none;
-  
 }
-
-
-
-
 
 @keyframes bounce {
   0%,
@@ -82,5 +77,71 @@ body {
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    display: block;
+  }
+  .main {
+    height: 500px;
+    width: calc(100% - 50px);
+    /* background-color: #fff; */
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .circle {
+    height: 20px;
+    width: 20px;
+    /* background-color: rgb(119, 47, 234); */
+    border-radius: 50%;
+    border: 8px solid rgb(119, 47, 234);
+  }
+  .available {
+    margin-top: 18px;
+    border: 2px slid black;
+    background-color: rgb(119, 47, 234);
+    color: white;
+    /* color: transparent; */
+    width: 200px;
+    height: 40px;
+    /* border: 5px solid none; */
+    border-radius: 10px;
+  }
+  .para {
+    /* background-color: red; */
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    width: 400px;
+  }
+  .smallpara {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+  }
+  .mainright {
+    /* background-color: #fff; */
+    height: 270px;
+    width: 370px;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+  }
+  .mainright h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+    font-family: "Doto", sans-serif;
+    font-weight: 700;
+    line-height: 100px;
+    animation: bounce 2s none;
   }
 }
