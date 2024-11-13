@@ -156,8 +156,9 @@ body {
   }
   .fottermob {
     display: block;
-    margin-top: 7rem;
+    margin-top: 6rem;
     /* background-color: red; */
+    margin-left: 7px;
   }
   .fotterpc {
     display: none;
