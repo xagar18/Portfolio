@@ -37,7 +37,7 @@ export function Footer() {
             })}
           </div>
           <p className="text-muted-foreground text-sm">
-            Made with ❤️ by Sagar.
+          Passionately created with ❤️ by Sagar.
           </p>
 
         </div>
