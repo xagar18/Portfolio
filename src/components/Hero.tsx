@@ -16,7 +16,7 @@ export function Hero() {
           transition={{ delay: 0.2 }}
           className="text-sm md:text-base text-muted-foreground mb-4 tracking-wider uppercase"
         >
-          Hi there, I'm a
+          Hi there, I'm 
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
