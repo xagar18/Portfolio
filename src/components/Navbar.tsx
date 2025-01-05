@@ -3,6 +3,19 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 
+function BuyMeACoffee() {
+  return (
+    <a
+      href="https://buymeacoffee.com/xagar18"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-primary transition-colors duration-200 px-3 py-2 rounded-md text-sm font-medium bg-yellow-500 text-black"
+    >
+      Buy Me a Coffee
+    </a>
+  );
+}
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
@@ -42,10 +55,12 @@ export function Navbar() {
               </a>
             ))}
             <ThemeToggle />
+            <BuyMeACoffee />
           </div>
 
           {/* Mobile Navigation Controls */}
           <div className="md:hidden flex items-center gap-2">
+            <BuyMeACoffee />
             <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
