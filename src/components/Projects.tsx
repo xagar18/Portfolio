@@ -1,22 +1,29 @@
 import { motion } from "framer-motion";
+import { FaGlobe, FaGithub } from "react-icons/fa";  // Importing icons
 
 const projects = [
   {
     "title": "Todo App",
     "description": "A todo app where you can create and delete tasks. The database used is DynamoDB.",
-    "image": "/placeholder.svg"
+    "image": "/todoImg.png",
+    "website": "#",
+    "github": "#"
   }
   ,
   {
     "title": "Weather App",
     "description": "A weather application that provides up-to-date weather information using the OpenWeather API.",
-    "image": "/placeholder.svg"
+    "image": "/weatherImg.png",
+    "website": "#",
+    "github": "#"
   },
   
   {
     "title": "Currency Converter App",
     "description": "A user-friendly application for converting currencies in real-time, utilizing the latest exchange rates.",
-    "image": "/placeholder.svg"
+    "image": "/currencyImg.png",
+    "website": "#",
+    "github": "#"
   }
   
 ];
@@ -43,6 +50,22 @@ export function Projects() {
               />
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-muted-foreground">{project.description}</p>
+              <div className="flex justify-between mt-4">
+                <a 
+                  href={project.website} 
+                  className="btn flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
+                >
+                  <FaGlobe className="mr-2" />
+                  Website
+                </a>
+                <a 
+                  href={project.github} 
+                  className="btn flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition duration-300"
+                >
+                  <FaGithub className="mr-2" />
+                  GitHub
+                </a>
+              </div>
             </motion.div>
           ))}
         </div>

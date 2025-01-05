@@ -9,7 +9,7 @@ function BuyMeACoffee() {
       href="https://buymeacoffee.com/xagar18"
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:text-primary transition-colors duration-200 px-3 py-2 rounded-md text-sm font-medium bg-yellow-500 text-black"
+      className="hover:text-primary transition-colors duration-200 md:px-3 md:py-2 px-2 py-2 rounded-md text-[10px] md:text-sm font-medium bg-yellow-500 text-black"
     >
       Buy Me a Coffee
     </a>
