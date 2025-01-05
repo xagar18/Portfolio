@@ -34,7 +34,7 @@ export function Contact() {
               className="bg-background/50 min-h-[150px]"
             />
           </div>
-          <Button className="w-full">Send Message</Button>
+          <Button disabled className="w-full">Send Message</Button>
         </form>
       </motion.div>
     </section>
