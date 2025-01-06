@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileText } from "lucide-react";
 
 export function Hero() {
   return (
@@ -36,16 +36,29 @@ export function Hero() {
           Specializing in modern web technologies and creative solutions.
         </motion.p>
         
-        <motion.a
-          href="#about"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-primary/10 transition-colors duration-300"
-        >
-          Dive In
-          <ArrowDown className="w-4 h-4 animate-bounce" />
-        </motion.a>
+        <div className="flex justify-center gap-4">
+          <motion.a
+            href="/Sagar Resume.pdf" 
+            download
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8 }}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-primary/10 transition-colors duration-300"
+          >
+            <FileText className="w-4 h-4" />
+            Download CV
+          </motion.a>
+          <motion.a
+            href="#about"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8 }}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-primary/10 transition-colors duration-300"
+          >
+            Dive In
+            <ArrowDown className="w-4 h-4 animate-bounce" />
+          </motion.a>
+        </div>
       </motion.div>
       
       <div className="absolute inset-0 animated-bg -z-10" />
