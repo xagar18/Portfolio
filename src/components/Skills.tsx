@@ -1,22 +1,22 @@
 import { motion } from "framer-motion";
-import { Code2, Palette, Database, Globe, Cpu, LineChart } from "lucide-react";
+import { Code2, Database, Globe, LineChart, Cpu, Monitor } from "lucide-react";
 
 export function Skills() {
   const skills = [
     {
       icon: Code2,
       title: "Frontend Development",
-      description: "React, TypeScript, HTML5, CSS3",
+      description: "React, TypeScript, HTML5, CSS3, JavaScript, Tailwind CSS",
     },
     {
       icon: Database,
       title: "Backend Development",
-      description: "Node.js, SQL, MongoDB",
+      description: "Node.js, SQL, MongoDB, DynamoDB",
     },
     {
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Responsive Design",
+      icon: Monitor,
+      title: "Other Programming Languages",
+      description: "C#, PHP, C++, Python",
     },
     {
       icon: Globe,
@@ -26,7 +26,7 @@ export function Skills() {
     {
       icon: Cpu,
       title: "DevOps",
-      description: "Git, AWS",
+      description: "Git, AWS, Vercel, Netlify",
     },
     {
       icon: LineChart,
