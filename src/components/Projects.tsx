@@ -6,8 +6,8 @@ const projects = [
     "title": "Todo App",
     "description": "A todo app where you can create and delete tasks. The database used is DynamoDB.",
     "image": "/todoImg.png",
-    "website": "#",
-    "github": "#"
+    "website": "https://sagaryadav-todo.netlify.app/",
+    "github": "https://github.com/xagar18/TODO-APP"
   }
   ,
   {
@@ -15,7 +15,7 @@ const projects = [
     "description": "A weather application that provides up-to-date weather information using the OpenWeather API.",
     "image": "/weatherImg.png",
     "website": "#",
-    "github": "#"
+    "github": "https://github.com/xagar18/Weather-App"
   },
   
   {
@@ -23,7 +23,7 @@ const projects = [
     "description": "A user-friendly application for converting currencies in real-time, utilizing the latest exchange rates.",
     "image": "/currencyImg.png",
     "website": "#",
-    "github": "#"
+    "github": "https://github.com/xagar18/Currency-Convertor"
   }
   
 ];

@@ -7,7 +7,7 @@ export function Hero() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8 }} 
         className="text-center z-10 px-4"
       >
         <motion.p

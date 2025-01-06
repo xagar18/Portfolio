@@ -35,10 +35,6 @@ export function About() {
             I'm a passionate developer focused on creating beautiful and functional web experiences. 
             With a keen eye for design and a love for clean code, I bring ideas to life through modern web technologies.
           </p>
-          <p className="text-lg leading-relaxed">
-            My approach combines technical expertise with creative problem-solving, ensuring that every project 
-            I tackle is both visually stunning and technically sound.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
